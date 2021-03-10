@@ -1,0 +1,5 @@
+<h1>Zgadnij wartość PLN'a</h1><br>
+{{rootObject.rates.PLN}}<br>
+<input type="text" #plnValue>
+<input type="button" value="Sprawdź" (click) = 'check(plnValue.value)'><br>
+{{returnValue}}
